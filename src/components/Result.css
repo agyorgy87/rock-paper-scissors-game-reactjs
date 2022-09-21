@@ -1,0 +1,35 @@
+.MainBoard {
+    height: 400px;
+    width: 600px;
+    margin: 200px auto;
+    border-radius: 10px;
+    box-shadow: 20px 20px 40px 0px rgba(0, 0, 0, 0.75);
+    background-color: rgb(236, 236, 236);
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Cairo', sans-serif; 
+}
+
+.ButtonBox{
+    height: 100px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.PlayAgainButton {
+    height: 70px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(194, 194, 194);
+    font-size: 25px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.PlayAgainButton:hover{
+    background-color: #fd892b;
+}

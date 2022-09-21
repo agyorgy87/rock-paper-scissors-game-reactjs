@@ -1,0 +1,142 @@
+.gameApp {
+    height: 720px;
+    width: 700px;
+    margin: 50px auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+    box-shadow: 20px 20px 40px 0px rgba(0, 0, 0, 0.75);
+    background-color: rgb(236, 236, 236);
+}
+
+.topHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pointBox {
+    padding-left: 40px;
+}
+
+h3 {
+    font-family: 'Cairo', sans-serif;
+}
+
+.countDown {
+    width: 120px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.onlySeconds {
+      margin-left: 20px;
+}
+  
+.comRandomBox {
+    display: flex;
+    justify-content: center;
+}
+
+.comChoiceIconClass {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefef;
+}
+
+.comIconFa {
+    font-size: 70px;  
+}
+
+.gameResultTextBox {
+    display: flex;
+    justify-content: center;
+}
+  
+.myChoiceBox {
+    display: flex;
+    justify-content: center;
+}
+
+.myChoiceIconClass {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefef;
+}
+  
+.myIconFa{
+    font-size: 70px;
+}
+
+.choicesBox {
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+  
+.rockButton {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.rockButton:hover{
+    background-color: #fd892b;
+}
+  
+.paperButton {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.paperButton:hover{
+    background-color: #fd892b;
+}
+  
+.scissorsButton {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.scissorsButton:hover{
+    background-color: #fd892b;
+}
+  
+.startButtonBox {
+    display: flex;
+    justify-content: center;
+}
+
+.iconClass {
+    font-size:70px;
+}
+
+.faScissors {
+    font-size:70px;
+    transform: rotate(90deg) scaleY(-1);
+}
+
+button > * {
+    pointer-events: none;
+}

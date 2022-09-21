@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500;900&display=swap');
+
+.StarterScreenFrame {
+    height: 400px;
+    width: 600px;
+    margin: 200px auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 20px 20px 40px 0px rgba(0, 0, 0, 0.75);
+    background-color: rgb(236, 236, 236);
+}
+
+.RpsBox {
+    height: 150px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+
+.Boxes {
+    display: flex;
+}
+
+.NameTitles {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Cairo', sans-serif;
+}
+
+.Icons {
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 50px;
+}
+
+.ScissorsIcon {
+    padding-top: 23px;
+    padding-left: 0px;
+    font-size: 50px;
+    transform: rotate(90deg) scaleY(-1);
+}
+
+.StartButtonBox {
+    display: flex;
+    justify-content: center;
+}
+
+.StartButton {
+    height: 80px;
+    width: 180px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(194, 194, 194);  
+    font-size: 40px;
+    font-weight: 500;  
+    font-family: 'Cairo', sans-serif;
+}
+
+.StartButton:hover{
+    background-color: #fd892b;
+}
