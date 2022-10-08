@@ -10,37 +10,37 @@ function Home() {
     let navigate = useNavigate();
     
     return (
-        <div className="StarterScreenFrame">
+        <div className="starter-screen-frame">
             <div>
-                <div className="RpsBox">
-                    <div className="Boxes">
-                        <div className="NameTitles">
+                <div className="rps-container">
+                    <div className="containers">
+                        <div className="name-titles">
                             ROCK
                         </div>
-                        <div className="Icons">
+                        <div className="icons">
                             <FaHandRock/>
                         </div>
                     </div>
-                    <div className="Boxes">
-                        <div className="NameTitles">
+                    <div className="containers">
+                        <div className="name-titles">
                             PAPER
                         </div>
-                        <div className="Icons">
+                        <div className="icons">
                             <FaHandPaper/>
                         </div>  
                     </div>
-                    <div className="Boxes">
-                        <div className="NameTitles">
+                    <div className="containers">
+                        <div className="name-titles">
                             SCISSORS
                         </div>
-                        <div className="ScissorsIcon">
+                        <div className="scissors-icon">
                             <FaHandScissors/>
                         </div>      
                     </div>
                 </div>
             </div>
-            <div className="StartButtonBox">
-                <button className="StartButton" onClick={() => {navigate("/game");}}>START</button>                
+            <div className="start-button-container">
+                <button className="start-button" onClick={() => {navigate("/game");}}>START</button>                
             </div>
         </div>
     )

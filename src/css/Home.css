@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500;900&display=swap');
 
-.StarterScreenFrame {
+.starter-screen-frame { 
     height: 400px;
     width: 600px;
     margin: 200px auto;
@@ -12,7 +12,7 @@
     background-color: rgb(236, 236, 236);
 }
 
-.RpsBox {
+.rps-container {
     height: 150px;
     padding-top: 20px;
     display: flex;
@@ -21,35 +21,35 @@
     justify-content: space-around; 
 }
 
-.Boxes {
+.containers {
     display: flex;
 }
 
-.NameTitles {
+.name-titles {
     font-size: 40px;
     font-weight: 900;
     font-family: 'Cairo', sans-serif;
 }
 
-.Icons {
+.icons {
     padding-top: 10px;
     padding-left: 15px;
     font-size: 50px;
 }
 
-.ScissorsIcon {
+.scissors-icon {
     padding-top: 23px;
     padding-left: 0px;
     font-size: 50px;
     transform: rotate(90deg) scaleY(-1);
 }
 
-.StartButtonBox {
+.start-button-container {
     display: flex;
     justify-content: center;
 }
 
-.StartButton {
+.start-button {
     height: 80px;
     width: 180px;
     border: none;
@@ -60,6 +60,6 @@
     font-family: 'Cairo', sans-serif;
 }
 
-.StartButton:hover{
+.start-button:hover{
     background-color: #fd892b;
 }

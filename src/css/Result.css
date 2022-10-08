@@ -1,4 +1,4 @@
-.MainBoard {
+.main-board {
     height: 400px;
     width: 600px;
     margin: 200px auto;
@@ -13,14 +13,14 @@ h1{
     font-family: 'Cairo', sans-serif; 
 }
 
-.ButtonBox{
+.button-container{
     height: 100px;
     width: 600px;
     display: flex;
     justify-content: center;
 }
 
-.PlayAgainButton {
+.play-again-button {
     height: 70px;
     width: 150px;
     border: none;
@@ -30,6 +30,6 @@ h1{
     font-family: 'Cairo', sans-serif;
 }
 
-.PlayAgainButton:hover{
+.play-again-button:hover{
     background-color: #fd892b;
 }

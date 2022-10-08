@@ -170,51 +170,51 @@ export default function Game() {
     }
 
     return (
-        <div className="gameApp">
-            <div className="topHeader">  
-                <div className="pointBox">
+        <div className="game-app">
+            <div className="top-header">  
+                <div className="point-container">
                     <h3>You have to win 5 rounds to win the game</h3>
                     <h3>Com Points: {comPoints}</h3>
                     <h3>Player Points: {playerPoints}</h3>
                 </div>
-                <div className="countDown">
-                    <div className="timeLeftText">
+                <div className="count-down">
+                    <div className="time-left-text">
                         <h3>TIME LEFT:</h3>
                     </div>
                     <div>
-                        <h3 className="onlySecons">{seconds}</h3>   
+                        <h3 className="only-seconds">{seconds}</h3>   
                     </div>
                 </div>
             </div>
-            <div className="comRandomBox">
-                <div className="comChoiceIconClass">
-                    <i className="comIconFa" style={ comIconRotate ? {transform:'rotate(180deg)'} : {transform:'rotate(270deg)'} }>{onlyComChoiceIconVisible}</i>
+            <div className="com-random-container">
+                <div className="com-choice-icon-class">
+                    <i className="com-icon-fa" style={ comIconRotate ? {transform:'rotate(180deg)'} : {transform:'rotate(270deg)'} }>{onlyComChoiceIconVisible}</i>
                 </div>
             </div>
-            <div className="gameResultTextBox">
-                <div className="whosWin">
+            <div className="game-result-text-container">
+                <div>
                     <h3>{resultTable}</h3>
                 </div>
             </div>
-            <div className="myChoiceBox">
-                <div className="myChoiceIconClass">
-                    <i className="myIconFa" style={ myIconRotate ? {transform:'rotate(0deg)'} : {transform:'rotate(90deg) scaleY(-1)'} }>{OnlyMyIconVisible}</i>
+            <div className="my-choice-container">
+                <div className="my-choice-icon-class">
+                    <i className="my-icon-fa" style={ myIconRotate ? {transform:'rotate(0deg)'} : {transform:'rotate(90deg) scaleY(-1)'} }>{OnlyMyIconVisible}</i>
                 </div>
             </div>
-            <div className="choicesBox">
+            <div className="choices-container">
                 <div>
-                    <button id="rockID" className="btn rockButton" onClick={(e)=> myChoiceItem(e)} disabled={buttonDisable}>
-                        <FaHandRock className="iconClass"/>
+                    <button id="rockID" className="btn rock-button" onClick={(e)=> myChoiceItem(e)} disabled={buttonDisable}>
+                        <FaHandRock className="icon-class"/>
                     </button>
                 </div>
                 <div>
-                    <button id="paperID" className="btn paperButton" onClick={(e)=> myChoiceItem(e)} disabled={buttonDisable}>
-                    <FaHandPaper className="iconClass"/>
+                    <button id="paperID" className="btn paper-button" onClick={(e)=> myChoiceItem(e)} disabled={buttonDisable}>
+                    <FaHandPaper className="icon-class"/>
                     </button>
                 </div>
                 <div>
-                    <button id="scissorsID" className="btn scissorsButton" onClick={(e)=> myChoiceItem(e)} disabled={buttonDisable}>
-                    <FaHandScissors className="faScissors"/>
+                    <button id="scissorsID" className="btn scissors-button" onClick={(e)=> myChoiceItem(e)} disabled={buttonDisable}>
+                    <FaHandScissors className="fa-scissors"/>
                     </button>
                 </div>
             </div>

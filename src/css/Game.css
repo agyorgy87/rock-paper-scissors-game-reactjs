@@ -1,4 +1,4 @@
-.gameApp {
+.game-app {
     height: 720px;
     width: 700px;
     margin: 50px auto;
@@ -10,12 +10,12 @@
     background-color: rgb(236, 236, 236);
 }
 
-.topHeader {
+.top-header {
     display: flex;
     justify-content: space-between;
 }
 
-.pointBox {
+.point-container {
     padding-left: 40px;
 }
 
@@ -23,23 +23,23 @@ h3 {
     font-family: 'Cairo', sans-serif;
 }
 
-.countDown {
+.count-down {
     width: 120px;
     padding-right: 40px;
     display: flex;
     justify-content: space-between;
 }
 
-.onlySeconds {
+.only-seconds {
       margin-left: 20px;
 }
   
-.comRandomBox {
+.com-random-container {
     display: flex;
     justify-content: center;
 }
 
-.comChoiceIconClass {
+.com-choice-icon-class {
     height: 150px;
     width: 150px;
     border: 2px solid black;
@@ -50,21 +50,21 @@ h3 {
     background-color: #efefef;
 }
 
-.comIconFa {
+.com-icon-fa {
     font-size: 70px;  
 }
 
-.gameResultTextBox {
+.game-result-text-container {
     display: flex;
     justify-content: center;
 }
   
-.myChoiceBox {
+.my-choice-container {
     display: flex;
     justify-content: center;
 }
 
-.myChoiceIconClass {
+.my-choice-icon-class {
     height: 150px;
     width: 150px;
     border: 2px solid black;
@@ -75,11 +75,11 @@ h3 {
     background-color: #efefef;
 }
   
-.myIconFa{
+.my-icon-fa{
     font-size: 70px;
 }
 
-.choicesBox {
+.choices-container{
     width: 600px;
     margin: 0 auto;
     margin-bottom: 5px;
@@ -87,7 +87,7 @@ h3 {
     justify-content: space-around;
 }
   
-.rockButton {
+.rock-button {
     height: 150px;
     width: 150px;
     border: 2px solid black;
@@ -95,11 +95,11 @@ h3 {
     font-size: 30px;
 }
 
-.rockButton:hover{
+.rock-button:hover{
     background-color: #fd892b;
 }
   
-.paperButton {
+.paper-button {
     height: 150px;
     width: 150px;
     border: 2px solid black;
@@ -107,11 +107,11 @@ h3 {
     font-size: 30px;
 }
 
-.paperButton:hover{
+.paper-button:hover{
     background-color: #fd892b;
 }
   
-.scissorsButton {
+.scissors-button {
     height: 150px;
     width: 150px;
     border: 2px solid black;
@@ -119,20 +119,20 @@ h3 {
     font-size: 30px;
 }
 
-.scissorsButton:hover{
+.scissors-button:hover{
     background-color: #fd892b;
 }
   
-.startButtonBox {
+.start-button-container {
     display: flex;
     justify-content: center;
 }
 
-.iconClass {
+.icon-class {
     font-size:70px;
 }
 
-.faScissors {
+.fa-scissors {
     font-size:70px;
     transform: rotate(90deg) scaleY(-1);
 }
