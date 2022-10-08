@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Result.css";
+import "../css/Result.css";
 import { useNavigate } from "react-router-dom";
 
 function YouWon() {

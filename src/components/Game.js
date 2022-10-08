@@ -1,4 +1,4 @@
-import "./Game.css";
+import "../css/Game.css";
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from "react-router-dom";
 

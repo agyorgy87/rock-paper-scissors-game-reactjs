@@ -1,4 +1,4 @@
-import "./Home.css";
+import "../css/Home.css";
 import React  from "react";
 import { useNavigate } from "react-router-dom";
 import { FaHandRock } from 'react-icons/fa';
